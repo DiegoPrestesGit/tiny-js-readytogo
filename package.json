@@ -4,6 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/DiegoPrestesGit/real-time-chat.git",
   "author": "Diego Prestes <diegoprestes.git@hotmail.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
